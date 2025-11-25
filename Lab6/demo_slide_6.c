@@ -1,9 +1,7 @@
 #include <stdio.h>
-void nhapmang(int a[5][5]);
-void xuatmang(int a[5][5]);
 
 int main(){
-    /*// khoi tao mang 1 chieu
+    // khoi tao mang 1 chieu
     //int a[4] = {1400,1450,1500,1550};
     int a[4];
     // nhap mang 1 chieu 
@@ -16,10 +14,11 @@ int main(){
     // duyet mang va xuat mang 1 chieu
     for(int i = 0; i<4; i++){
         printf("Mang a bao gom %d \n",a[i]);
-    }*/
+    }
     
+    // khoi tao mang 2 chieu
     int b[3][3];
-    // ham nhap mang
+    // ham nhap mang 2 chieu
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
